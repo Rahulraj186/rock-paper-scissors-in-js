@@ -7,4 +7,10 @@ function getComputerChoice(){
 
 }
 
-console.log(getComputerChoice())
+console.log("Computer",getComputerChoice())
+
+function getHumanChoice(){
+    let choice =  prompt("Enter your choice")
+    return choice;
+}
+console.log("Human", getHumanChoice())
